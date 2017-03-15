@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>软件学院官网后台管理系统</title>
+<link rel="stylesheet" type="text/css"
+	href="extjs/resources/css/ext-all.css" />
+<link rel="stylesheet" type="text/css" href="css/ext-patch.css" />
+<link rel="stylesheet" type="text/css" href="css/sc_auth.css" />
+
+<script type="text/javascript">
+	//          
+	if (navigator.userAgent.indexOf("MSIE") > 0) {
+		var browser = navigator.appName;
+		var b_version = navigator.appVersion;
+		var version = b_version.split(";");
+		var trim_Version = version[1].replace(/[ ]/g, "");
+
+		if (browser == "Microsoft Internet Explorer"
+				&& trim_Version == "MSIE9.0") {
+
+		} else {
+			top.location = 'sc_authForIE6.html';
+		}
+	}
+
+	//
+</script>
+<script type="text/javascript" src="extjs/adapter/ext/ext-base.js"></script>
+<script type="text/javascript" src="extjs/ext-all-debug.js"></script>
+<script type="text/javascript" src="extjs/src/locale/ext-lang-zh_CN.js"></script>
+<script type="text/javascript" src="extjs/ux/statusbar/StatusBar.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript" src="js/top.js"></script>
+<script type="text/javascript" src="js/cenpanel.js"></script>
+<script type="text/javascript" src="js/feapanel.js"></script>
+<script type="text/javascript" src="js/sc_auth.js"></script>
+</head>
+<body></body>
+</html>

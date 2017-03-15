@@ -1,0 +1,176 @@
+*{
+	margin:0 auto;
+	padding:0;
+	font-size:13px;
+	}
+body{
+	text-align:center;
+	margin:0 auto;
+	}
+div,form,img,ul,ol,li,dl,dt,dd{border:0;}
+a:link {
+	 text-decoration: none;
+}
+a:visited {
+	 text-decoration: none;
+}
+a:hover {
+	 text-decoration: none;
+}
+a:active {
+	 text-decoration: none;
+}
+#eng-container{
+	 width:1024px;
+}
+
+#eng-body {
+	width:1024px;
+	height:569px;
+	z-index:1;	
+	over-flow:hidden;
+	background-image: url(../images/eng-middle-bg.png);
+}
+
+#eng-photo{
+	width:480px;
+	height:350px;
+	z-index:3;
+	float:left;
+	display:inline;
+	margin-left:30px;
+	margin-top:30px;
+
+}
+
+#eng-news{
+	width:480px;
+	float:right;
+	height:350px;
+	display:inline-block;
+	margin-right:30px;
+	margin-top:30px;
+
+}
+
+#line {
+	width:470px;
+	height:6px;
+	float:left;
+	display:inline-block;
+	margin-left:10px;
+	z-index:4;
+	background-image: url(../images/eng-line.png);
+	
+	}
+	
+#eng-news-content{
+
+	width:450px;
+	white-space:normal;
+	word-break : break-all;
+	height:240px;
+	z-index:10;
+	font-size: 12px;
+	display:block;
+	float:left;
+	padding-top:20px;
+	padding-left:30px;
+	text-align:left;
+
+}
+#eng-news-content p{
+		width:450px;
+	white-space:normal;
+	word-break : break-all;
+}
+#eng-news-content p {
+	width:450px;
+	white-space:normal;
+	word-break: break-all;
+	color:#394757;
+}
+
+#eng-news-content span{
+	width:450px;
+	white-space:normal;
+	word-break: break-all;
+	color:#394757;
+}
+#eng-red {
+	width:976px;
+	height:189px;
+	z-index:4;
+	margin-left: 23px;
+	display:inline;
+	float:left;
+	background-color: #b5c5ec;
+
+}
+
+#eng-red-left {
+	margin-top:10px;
+	width:470px;
+	height:130px;
+	z-index:5;
+	display:inline-block;
+	float:left;
+	margin-left:30px;
+	text-align:left;
+	
+}
+
+
+#eng-red-right{
+	margin-top:10px;
+	width:470px;
+	height:180px;
+	display:inline;
+	z-index:5;
+	float:right;
+    text-align:left;
+}
+
+#eng-red-more
+{
+	width:61px;
+	height:15px;
+	z-index:5;
+	float:right;
+	margin-right:40px;
+	margin-top:5px;
+}
+
+
+#eng-search{
+	width:400px;
+	height:27px;
+	z-index:2;
+	display:inline;
+	float:left;
+	margin-top:20px;
+	margin-left:30px;
+	line-height:35px;
+
+	}
+#eng-banner
+{
+	float:left;
+	width:1024px;
+	height:46px;
+	z-index:1;
+	background-color:#2052a5;
+
+	
+}
+
+
+#eng-banner-text{
+	width:100%;
+	height:18px;
+	display:block;
+	z-index:2;
+	float:left;
+	padding-top:15px;
+	text-align:center;	
+	}

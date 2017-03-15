@@ -1,0 +1,61 @@
+*{
+	margin:0 auto;
+	padding:0;
+	font-size:13px;
+	}
+body{
+	text-align:center;
+	margin:0 auto;
+	}
+#divup {
+	width:1024px;
+	height:157px;
+	z-index:2;
+	background-image: url(../images/eng-up.png);
+	
+}
+
+
+#eng-rightLink{
+	float:right;
+	width:200px;
+	height:34px;
+	z-index:10;	
+	display:inline;
+	padding-top:10px;
+}
+a.eng-rightLink{
+	float:left;
+	color:#ffffff;
+	margin-right:10px;
+	padding-left:10px;
+	display:inline-block;
+	font-weight: bold;
+	font-family:Times New Roman;
+	background-image:url(../icons/eng-arrow.gif);
+    background-repeat:no-repeat;
+    background-position: center left; 
+
+}
+
+#eng-rightdown{
+	float:left;
+	width:500px;
+	height:20px;
+	padding-top: 100px;
+	padding-left:570px;
+	z-index:10;
+	font-family:Microsoft Sans serif;" 
+}
+
+#eng-top{
+    float:right;
+	width:715px;
+	height:34px;
+	z-index:10;
+	text-align:left;
+}
+
+
+
+

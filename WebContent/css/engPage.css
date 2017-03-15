@@ -1,0 +1,143 @@
+*{
+	margin:0 auto;
+	padding:0;
+	font-size:13px;
+	}
+body{
+	text-align:center;
+	margin:0 auto;
+	}
+div,form,img,ul,ol,li,dl,dt,dd{border:0;}
+a:link {
+ text-decoration: none;
+}
+a:visited {
+ text-decoration: none;
+}
+a:hover {
+ text-decoration: none;
+}
+a:active {
+ text-decoration: none;
+}
+#engPage-container
+{
+	display:block;
+	text-align:left;
+	width:1024px;
+
+
+}
+
+#engPage-body{
+	width:1024px;;
+	text-align:center;
+	background-image: url(../images/eng-middle-bg.png);
+	background-repeat: repeat-y;
+}
+
+#engPage-guide{
+	width:800px;;
+	height:40px;
+	padding-top:40px;
+	line-height:20px;
+
+}
+
+span#engPage-guide1{
+	color:#5C6979;
+	float:left;
+	font-size:15px;	
+	display:inline-block;
+	margin-left:45px;
+	font-family:Microsoft Sans serif;" 
+}
+
+span#engPage-guide2{
+	color:black;
+	float:right;
+	font-size:15px;	
+	display:inline;
+	padding-right:45px;
+	font-family:Microsoft Sans serif;" 
+}
+
+p#engPage-newsTitle{
+	color:#32304C;
+	font-size:23px;	
+	line-height:40px;
+	width:550px;
+	font-family:Microsoft Sans serif;" 
+	display:block;
+	text-align:center;
+	
+}
+
+p#engPage-newsInfo{
+	color:black;
+	font-size:13px;	
+	line-height:20px;
+	font-family:Microsoft Sans serif;"
+	display:block;
+	text-align:center;
+	
+}
+
+#engPage-newsPic{
+	height:300px;
+	width:400px;
+	margin-top:30px;
+	display:block;
+	
+}
+
+div#engPage-newsContent{
+	width:650px;
+
+	text-align:left;
+	display:block;
+	margin-bottom:20px;
+	height:auto !important;
+	min-height:300px;
+	overflow: hidden;
+	_height:300px;
+	
+}
+
+div#index3-download{
+	margin-top:50px;
+	width:800px;
+	height:auto;
+	margin-left:-660px;
+	margin-bottom:20px;
+	display:inline-block;
+}
+
+div#index3-download span{
+	color:#686868;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size:36px;
+    font-weight:bold;
+    display:block;
+    line-height:25px;
+}
+
+div#index3-download a{
+	margin-left:20px;
+    font-weight:500;
+    line-height:25px;
+    color: #5C6979;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    letter-spacing: 0;
+}
+
+
+div#engPage-newsContent p{
+	font-size:14px;
+	font-family:Microsoft Sans serif;" 
+}
+div#engPage-newsContent p span{
+	font-size:14px;
+	font-family:Microsoft Sans serif;" 
+}

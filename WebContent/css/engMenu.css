@@ -1,0 +1,93 @@
+/**
+
+ *********************************************
+ * (X)HTML-scheme:
+ *  <div id="menu">
+ *      <ul class="menu">
+ *          <li><a href="#" class="parent"><span>level 1</span></a>
+ *              <div><ul>
+ *                  <li><a href="#" class="parent"><span>level 2</span></a>
+ *                      <div><ul><li><a href="#"><span>level 3</span></a></li></ul></div>
+ *                  </li>
+ *              </ul></div>
+ *          </li>
+ *          <li class="last"><a href="#"><span>level 1</span></a></li>
+ *      </ul>
+ *  </div>
+ *********************************************
+ */
+
+
+/* menu::base */
+div#menu{
+	width:984px;
+	padding-left:40px;
+	height:45px;
+	line-height:45px;
+	z-index:2;
+    background-image: url(../images/eng-menu-bg.png);
+    text-align:left;
+    vertical-align:middle;	
+}
+div#menu ul {
+	margin:0px;
+	padding:0px;
+    float: left;
+    display:inline;
+}
+
+
+
+div#menu li {
+    position: relative;
+    display: block;
+    float: left;
+    z-index: 9;
+    margin-left:15px;
+    padding-left:20px;
+    background-image:url(../icons/square.gif);
+    background-repeat:no-repeat;
+    background-position: center left; 
+
+}
+
+div#menu li:hover>div {
+    visibility: visible;
+}
+span.menu-font{
+	color: #fff;
+   font-family:Microsoft Sans serif;" 
+   font-size:17px;	
+}
+
+div#menu span {
+    color: #fff;
+   font-family:Microsoft Sans serif;" 
+   font-size:17px;	
+   cursor: pointer;
+   text-align: center;
+
+}
+
+
+div#menu a {
+    position: relative;
+    z-index: 10;
+    float: left;
+    white-space: nowrap;
+    text-align:center;
+    color: #fff;
+   font-family:Microsoft Sans serif;" 
+   font-size:17px;
+
+
+}
+
+div#menu a:hover span {
+	 color: #07b3e1;
+}
+div#menu ul.menu>li:hover>a span {
+	  color: #07b3e1;
+}
+
+

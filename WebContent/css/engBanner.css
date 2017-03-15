@@ -1,0 +1,25 @@
+div#eng-banner{
+	width:1024px;
+	height:70px;
+	background-color:#2052A5;
+	text-align:center;
+	display:block;
+
+}
+div#eng-banner-search{
+	width:350px;
+	display:block;
+	line-height:25px;
+	height:25px;
+	margin-left:330px;
+	padding-top:15px;
+}
+#eng-banner-text{
+	width:100%;
+	height:18px;
+	padding-top:25px;
+	display:block;
+	z-index:2;
+	float:left;
+	text-align:center;	
+	}
